@@ -1,4 +1,16 @@
+Funcionalidade: Login
+
 Cenário: Login válido
 Dado que o usuário está na tela de login
 Quando informa credenciais válidas
 Então deve acessar o sistema
+
+Cenário: Login com senha inválida
+Dado que o usuário está na tela de login
+Quando informa senha inválida
+Então deve ver mensagem de erro
+
+Cenário: Login com campos vazios
+Dado que o usuário está na tela de login
+Quando não informa usuário e senha
+Então deve ver mensagem de validação
