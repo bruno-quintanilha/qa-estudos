@@ -1,0 +1,4 @@
+Cenário: Login válido
+Dado que o usuário está na tela de login
+Quando informa credenciais válidas
+Então deve acessar o sistema
